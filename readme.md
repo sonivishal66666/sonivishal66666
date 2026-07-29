@@ -15,6 +15,11 @@
 
 <br/>
 
+<!-- TAGLINE -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=4000&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=550&height=30&lines=%E2%98%81%EF%B8%8F+AWS+Certified+%C2%B7+%E2%98%B8%EF%B8%8F+Kubernetes+Native+%C2%B7+%F0%9F%8F%86+Top+0.1%25+Codeforces" alt="Subtitle" />
+
+<br/>
+
 <!-- SOCIAL LINKS -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58a6ff)](https://portfolio-vishal-five.vercel.app)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff)](https://www.linkedin.com/in/vishalsoni18)&nbsp;
@@ -36,6 +41,9 @@
 <!-- ═══════════════════ WHO AM I ═══════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
 <h2>
 <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">&nbsp;
 Who Am I
@@ -45,7 +53,7 @@ Who Am I
 <br/>
 
 <div align="center">
-<img align="right" width="320" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" alt="DevOps GIF"/>
+<img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding"/>
 </div>
 
 ```js
@@ -84,8 +92,16 @@ const vishal = {
 <!-- ═══════════════════ TECH STACK ═══════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
 <h2>⚡ Tech Stack</h2>
+
 <br/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%E2%98%81%EF%B8%8F+Cloud+%26+Infra+%7C+%E2%9A%99%EF%B8%8F+DevOps+%7C+%F0%9F%94%A5+Languages+%7C+%F0%9F%97%84%EF%B8%8F+Backend" alt="Stack Typing" /></a>
+
+<br/><br/>
 
 <table>
 <tr>
@@ -116,23 +132,27 @@ const vishal = {
 <!-- ═══════════════════ PROJECTS ═══════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
 <h2>🏗️ What I've Built</h2>
+
 <br/>
 
 <a href="https://github.com/vishalsoni18/Production-grade-cloud-platform">
-<img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=vishalsoni18&repo=Production-grade-cloud-platform&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
+<img width="400" src="https://github-stats-extended.vercel.app/api/pin/?username=vishalsoni18&repo=Production-grade-cloud-platform&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
 </a>&nbsp;&nbsp;
 <a href="https://github.com/vishalsoni18/CollabCode">
-<img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=vishalsoni18&repo=CollabCode&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
+<img width="400" src="https://github-stats-extended.vercel.app/api/pin/?username=vishalsoni18&repo=CollabCode&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/vishalsoni18/ChronoVault">
-<img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=vishalsoni18&repo=ChronoVault&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
+<img width="400" src="https://github-stats-extended.vercel.app/api/pin/?username=vishalsoni18&repo=ChronoVault&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
 </a>&nbsp;&nbsp;
 <a href="https://github.com/vishalsoni18/DineOps">
-<img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=vishalsoni18&repo=DineOps&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
+<img width="400" src="https://github-stats-extended.vercel.app/api/pin/?username=vishalsoni18&repo=DineOps&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&show_owner=true" />
 </a>
 
 </div>
@@ -145,16 +165,24 @@ const vishal = {
 <!-- ═══════════════════ GITHUB ANALYTICS ═══════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
 <h2>📊 GitHub Analytics</h2>
+
 <br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vishalsoni18&show_icons=true&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true" />
-&nbsp;
-<img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=vishalsoni18&background=0d1117&border=1f6feb&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=58a6ff&sideNums=58a6ff" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=350&height=25&lines=Commits+%C2%B7+Streaks+%C2%B7+Languages+%C2%B7+Activity" alt="Stats Typing" /></a>
 
 <br/><br/>
 
-<img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishalsoni18&layout=compact&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&text_color=8b949e&langs_count=10" />
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=vishalsoni18&show_icons=true&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true" />
+&nbsp;
+<img width="49%" src="https://streak-stats.demolab.com/?user=vishalsoni18&background=0d1117&border=1f6feb&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=58a6ff&sideNums=58a6ff" />
+
+<br/><br/>
+
+<img width="38%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=vishalsoni18&layout=compact&bg_color=0d1117&border_color=1f6feb&title_color=58a6ff&text_color=8b949e&langs_count=10" />
 
 <br/><br/>
 
@@ -173,34 +201,24 @@ const vishal = {
 <!-- DIVIDER -->
 <div align="center"><img src="./divider.svg" width="100%" /></div>
 
-<!-- ═══════════════════ SNAKE ═══════════════════ -->
+<!-- ═══════════════════ CURRENTLY ═══════════════════ -->
 
 <div align="center">
-<h2>🐍 Contribution Snake</h2>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
+<h2>
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25">&nbsp;
+What I'm Up To
+</h2>
+
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
-</picture>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=75&lines=%F0%9F%94%AD+Exploring+advanced+distributed+systems;%F0%9F%9B%A0%EF%B8%8F+Building+production+systems+at+IIT+Ropar;%E2%98%81%EF%B8%8F+3x+AWS+Certified+%E2%80%94+Solutions+Architect+%7C+AI+%7C+Cloud;%F0%9F%8C%90+Contributing+to+open+source+at+FOSSEE+IIT+Bombay;%F0%9F%8E%AF+AIR+217+in+CodeVita+%E2%80%94+Top+0.1%25+of+100K%2B+devs" alt="Currently" /></a>
 
 </div>
 
 <br/>
-
-<!-- DIVIDER -->
-<div align="center"><img src="./divider.svg" width="100%" /></div>
-
-<!-- ═══════════════════ QUOTE ═══════════════════ -->
-
-<div align="center">
-<br/>
-
-[![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
-
-<br/>
-</div>
 
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
