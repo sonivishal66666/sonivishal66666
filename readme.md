@@ -189,10 +189,30 @@ const vishal = {
 <!-- ACTIVITY GRAPH -->
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vishalsoni18&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb&hide_border=true)](https://github.com/vishalsoni18)
 
-<!-- TROPHIES -->
+</div>
+
 <br/>
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=vishalsoni18&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/vishalsoni18)
+<!-- DIVIDER -->
+<div align="center"><img src="./divider.svg" width="100%" /></div>
+
+<!-- ═══════════════════ SNAKE GAME ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
+<h2>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1500&color=58A6FF&center=true&vCenter=true&repeat=true&width=400&height=35&lines=%F0%9F%90%8D+Watch+My+Contributions+Get+Eaten!" alt="Snake Title" /></a>
+</h2>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
