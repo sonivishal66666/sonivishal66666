@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30">
+  <defs>
+    <style>
+      @keyframes slideLine { 0%{transform:translateX(-600px)} 100%{transform:translateX(600px)} }
+      @keyframes pulse { 0%,100%{opacity:0.3;r:3} 50%{opacity:1;r:5} }
+      .slider { animation: slideLine 4s linear infinite; }
+      .center-dot { animation: pulse 2s ease-in-out infinite; }
+    </style>
+    <linearGradient id="divGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="slideGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="30" fill="transparent"/>
+  <line x1="100" y1="15" x2="1100" y2="15" stroke="url(#divGrad)" stroke-width="1"/>
+  <circle class="center-dot" cx="600" cy="15" r="4" fill="#58a6ff"/>
+  <g class="slider">
+    <rect x="560" y="13" width="80" height="4" rx="2" fill="url(#slideGrad)" opacity="0.5"/>
+  </g>
+</svg>

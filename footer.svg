@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <style>
+      @keyframes waveMove1 { 0%{transform:translateX(0)} 100%{transform:translateX(-600px)} }
+      @keyframes waveMove2 { 0%{transform:translateX(0)} 100%{transform:translateX(-600px)} }
+      @keyframes waveMove3 { 0%{transform:translateX(0)} 100%{transform:translateX(-600px)} }
+      @keyframes twinkle { 0%,100%{opacity:0.1} 50%{opacity:0.9} }
+
+      .wave-a { animation: waveMove1 6s linear infinite; }
+      .wave-b { animation: waveMove2 9s linear infinite; }
+      .wave-c { animation: waveMove3 12s linear infinite; }
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .st1 { animation-delay: 0s; }
+      .st2 { animation-delay: 0.5s; }
+      .st3 { animation-delay: 1s; }
+      .st4 { animation-delay: 1.5s; }
+      .st5 { animation-delay: 2s; }
+      .st6 { animation-delay: 2.5s; }
+      .st7 { animation-delay: 0.3s; }
+      .st8 { animation-delay: 0.8s; }
+    </style>
+    <linearGradient id="footerGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="30%" stop-color="#161b22"/>
+      <stop offset="50%" stop-color="#1f6feb" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="wg1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="wg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="wg3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="#0d1117"/>
+
+  <!-- Stars -->
+  <circle class="star st1" cx="100" cy="30" r="1" fill="#ffffff"/>
+  <circle class="star st2" cx="250" cy="50" r="1.5" fill="#ffffff"/>
+  <circle class="star st3" cx="400" cy="25" r="1" fill="#ffffff"/>
+  <circle class="star st4" cx="550" cy="45" r="1.5" fill="#ffffff"/>
+  <circle class="star st5" cx="700" cy="20" r="1" fill="#ffffff"/>
+  <circle class="star st6" cx="900" cy="40" r="1.5" fill="#ffffff"/>
+  <circle class="star st7" cx="1050" cy="30" r="1" fill="#ffffff"/>
+  <circle class="star st8" cx="1150" cy="55" r="1" fill="#ffffff"/>
+
+  <!-- Wave 3 (back) -->
+  <g class="wave-c">
+    <path d="M0,140 C100,110 200,160 300,130 C400,100 500,150 600,120 C700,90 800,140 900,110 C1000,80 1100,130 1200,100 L1200,200 L0,200 Z" fill="url(#wg3)"/>
+    <path d="M600,140 C700,110 800,160 900,130 C1000,100 1100,150 1200,120 C1300,90 1400,140 1500,110 C1600,80 1700,130 1800,100 L1800,200 L600,200 Z" fill="url(#wg3)"/>
+  </g>
+
+  <!-- Wave 2 (mid) -->
+  <g class="wave-b">
+    <path d="M0,160 C150,130 300,180 450,150 C600,120 750,170 900,140 C1050,110 1200,160 1200,130 L1200,200 L0,200 Z" fill="url(#wg2)"/>
+    <path d="M600,160 C750,130 900,180 1050,150 C1200,120 1350,170 1500,140 C1650,110 1800,160 1800,130 L1800,200 L600,200 Z" fill="url(#wg2)"/>
+  </g>
+
+  <!-- Wave 1 (front) -->
+  <g class="wave-a">
+    <path d="M0,175 C100,155 250,190 400,170 C550,150 700,185 850,165 C1000,145 1150,180 1200,160 L1200,200 L0,200 Z" fill="url(#wg1)"/>
+    <path d="M600,175 C700,155 850,190 1000,170 C1150,150 1300,185 1450,165 C1600,145 1750,180 1800,160 L1800,200 L600,200 Z" fill="url(#wg1)"/>
+  </g>
+
+  <!-- Center text -->
+  <text x="600" y="85" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#8b949e" letter-spacing="3">AUTOMATE  ·  DEPLOY  ·  SCALE  ·  MONITOR  ·  REPEAT</text>
+
+</svg>

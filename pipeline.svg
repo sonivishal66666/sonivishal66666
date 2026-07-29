@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120">
+  <defs>
+    <style>
+      @keyframes flowRight { 0%{transform:translateX(-40px);opacity:0} 20%{opacity:1} 80%{opacity:1} 100%{transform:translateX(40px);opacity:0} }
+      @keyframes nodeGlow { 0%,100%{filter:drop-shadow(0 0 4px #1f6feb00)} 50%{filter:drop-shadow(0 0 12px #58a6ff)} }
+      @keyframes scaleIn { from{transform:scale(0);opacity:0} to{transform:scale(1);opacity:1} }
+      @keyframes progressBar { from{width:0} to{width:100%} }
+      @keyframes dotFlow { 0%{cx:0;opacity:0} 10%{opacity:1} 90%{opacity:1} 100%{cx:100%;opacity:0} }
+      @keyframes check { from{stroke-dashoffset:20} to{stroke-dashoffset:0} }
+      @keyframes arrowPulse { 0%,100%{opacity:0.3} 50%{opacity:1} }
+
+      .bg { fill: #0d1117; }
+      .node { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 12; }
+      .node-active { fill: #161b22; stroke: #1f6feb; stroke-width: 2; rx: 12; animation: nodeGlow 2s ease-in-out infinite; }
+      .n1 { animation-delay: 0s; }
+      .n2 { animation-delay: 0.4s; }
+      .n3 { animation-delay: 0.8s; }
+      .n4 { animation-delay: 1.2s; }
+      .n5 { animation-delay: 1.6s; }
+      .label { font-family: 'Segoe UI',Arial,sans-serif; font-size: 11px; fill: #58a6ff; font-weight: 600; letter-spacing: 1px; }
+      .icon-text { font-size: 22px; }
+      .arrow { animation: arrowPulse 1.5s ease-in-out infinite; }
+      .a1 { animation-delay: 0.2s; }
+      .a2 { animation-delay: 0.6s; }
+      .a3 { animation-delay: 1.0s; }
+      .a4 { animation-delay: 1.4s; }
+      .flow-dot { fill: #58a6ff; }
+      @keyframes moveDot1 { 0%{transform:translateX(0)} 100%{transform:translateX(100px)} }
+      @keyframes moveDot2 { 0%{transform:translateX(0)} 100%{transform:translateX(100px)} }
+
+      .flow1 { animation: flowRight 2s linear infinite; }
+      .flow2 { animation: flowRight 2s linear infinite; animation-delay: 0.5s; }
+      .flow3 { animation: flowRight 2s linear infinite; animation-delay: 1s; }
+      .flow4 { animation: flowRight 2s linear infinite; animation-delay: 1.5s; }
+    </style>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" width="1000" height="120" rx="8"/>
+
+  <!-- Node 1: Code -->
+  <rect class="node-active n1" x="30" y="20" width="140" height="80"/>
+  <text class="icon-text" x="100" y="55" text-anchor="middle">⌨️</text>
+  <text class="label" x="100" y="82" text-anchor="middle">CODE</text>
+
+  <!-- Arrow 1 -->
+  <g class="arrow a1">
+    <line x1="175" y1="60" x2="215" y2="60" stroke="url(#arrowGrad)" stroke-width="2"/>
+    <polygon points="215,55 225,60 215,65" fill="#58a6ff" opacity="0.8"/>
+  </g>
+  <circle class="flow-dot flow1" cx="195" cy="60" r="2" opacity="0.6"/>
+
+  <!-- Node 2: Build -->
+  <rect class="node-active n2" x="225" y="20" width="140" height="80"/>
+  <text class="icon-text" x="295" y="55" text-anchor="middle">🐳</text>
+  <text class="label" x="295" y="82" text-anchor="middle">BUILD</text>
+
+  <!-- Arrow 2 -->
+  <g class="arrow a2">
+    <line x1="370" y1="60" x2="410" y2="60" stroke="url(#arrowGrad)" stroke-width="2"/>
+    <polygon points="410,55 420,60 410,65" fill="#58a6ff" opacity="0.8"/>
+  </g>
+  <circle class="flow-dot flow2" cx="390" cy="60" r="2" opacity="0.6"/>
+
+  <!-- Node 3: Test -->
+  <rect class="node-active n3" x="420" y="20" width="140" height="80"/>
+  <text class="icon-text" x="490" y="55" text-anchor="middle">🧪</text>
+  <text class="label" x="490" y="82" text-anchor="middle">TEST</text>
+
+  <!-- Arrow 3 -->
+  <g class="arrow a3">
+    <line x1="565" y1="60" x2="605" y2="60" stroke="url(#arrowGrad)" stroke-width="2"/>
+    <polygon points="605,55 615,60 605,65" fill="#58a6ff" opacity="0.8"/>
+  </g>
+  <circle class="flow-dot flow3" cx="585" cy="60" r="2" opacity="0.6"/>
+
+  <!-- Node 4: Deploy -->
+  <rect class="node-active n4" x="615" y="20" width="140" height="80"/>
+  <text class="icon-text" x="685" y="55" text-anchor="middle">🚀</text>
+  <text class="label" x="685" y="82" text-anchor="middle">DEPLOY</text>
+
+  <!-- Arrow 4 -->
+  <g class="arrow a4">
+    <line x1="760" y1="60" x2="800" y2="60" stroke="url(#arrowGrad)" stroke-width="2"/>
+    <polygon points="800,55 810,60 800,65" fill="#58a6ff" opacity="0.8"/>
+  </g>
+  <circle class="flow-dot flow4" cx="780" cy="60" r="2" opacity="0.6"/>
+
+  <!-- Node 5: Monitor -->
+  <rect class="node-active n5" x="810" y="20" width="160" height="80"/>
+  <text class="icon-text" x="890" y="55" text-anchor="middle">📊</text>
+  <text class="label" x="890" y="82" text-anchor="middle">MONITOR</text>
+
+</svg>

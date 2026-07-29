@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <style>
+      @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-20px)} }
+      @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-15px)} }
+      @keyframes float3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-25px)} }
+      @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.8} }
+      @keyframes dash { to{stroke-dashoffset:0} }
+      @keyframes glow { 0%,100%{filter:drop-shadow(0 0 6px #1f6feb)} 50%{filter:drop-shadow(0 0 20px #58a6ff)} }
+      @keyframes wave1 { 0%{transform:translateX(0)} 100%{transform:translateX(-600px)} }
+      @keyframes wave2 { 0%{transform:translateX(0)} 100%{transform:translateX(-600px)} }
+      @keyframes fadeInUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      @keyframes orbit { 0%{transform:rotate(0deg) translateX(60px) rotate(0deg)} 100%{transform:rotate(360deg) translateX(60px) rotate(-360deg)} }
+      @keyframes orbit2 { 0%{transform:rotate(120deg) translateX(80px) rotate(-120deg)} 100%{transform:rotate(480deg) translateX(80px) rotate(-480deg)} }
+      @keyframes orbit3 { 0%{transform:rotate(240deg) translateX(50px) rotate(-240deg)} 100%{transform:rotate(600deg) translateX(50px) rotate(-600deg)} }
+      @keyframes sparkle { 0%,100%{opacity:0;transform:scale(0)} 50%{opacity:1;transform:scale(1)} }
+      @keyframes containerPulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
+      @keyframes lineGrow { from{stroke-dashoffset:200} to{stroke-dashoffset:0} }
+
+      .bg { fill: #0d1117; }
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; font-size: 52px; fill: #ffffff; animation: fadeInUp 1s ease-out forwards; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400; font-size: 18px; fill: #8b949e; animation: fadeInUp 1.5s ease-out forwards; }
+      .tagline { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #58a6ff; letter-spacing: 4px; animation: fadeInUp 1.2s ease-out forwards; }
+      .cursor { animation: blink 1s step-end infinite; fill: #58a6ff; }
+      
+      .wave-group1 { animation: wave1 8s linear infinite; }
+      .wave-group2 { animation: wave2 12s linear infinite; }
+
+      .particle { animation: pulse 3s ease-in-out infinite; }
+      .p1 { animation-delay: 0s; }
+      .p2 { animation-delay: 0.5s; }
+      .p3 { animation-delay: 1s; }
+      .p4 { animation-delay: 1.5s; }
+      .p5 { animation-delay: 2s; }
+      .p6 { animation-delay: 0.3s; }
+      .p7 { animation-delay: 0.8s; }
+      .p8 { animation-delay: 1.3s; }
+      .p9 { animation-delay: 1.8s; }
+      .p10 { animation-delay: 2.3s; }
+
+      .sparkle-dot { animation: sparkle 2s ease-in-out infinite; }
+      .s1 { animation-delay: 0s; }
+      .s2 { animation-delay: 0.4s; }
+      .s3 { animation-delay: 0.8s; }
+      .s4 { animation-delay: 1.2s; }
+      .s5 { animation-delay: 1.6s; }
+      .s6 { animation-delay: 2s; }
+      .s7 { animation-delay: 0.6s; }
+
+      .docker-icon { animation: float1 4s ease-in-out infinite; }
+      .k8s-icon { animation: float2 5s ease-in-out infinite; animation-delay: 1s; }
+      .cloud-icon { animation: float3 6s ease-in-out infinite; animation-delay: 0.5s; }
+      .tf-icon { animation: float1 4.5s ease-in-out infinite; animation-delay: 1.5s; }
+      .pipe-icon { animation: float2 5.5s ease-in-out infinite; animation-delay: 2s; }
+
+      .connecting-line { stroke-dasharray: 200; animation: lineGrow 3s ease-out forwards; }
+      .cl1 { animation-delay: 0.5s; stroke-dashoffset: 200; }
+      .cl2 { animation-delay: 1s; stroke-dashoffset: 200; }
+      .cl3 { animation-delay: 1.5s; stroke-dashoffset: 200; }
+      .cl4 { animation-delay: 2s; stroke-dashoffset: 200; }
+
+      .glow-element { animation: glow 3s ease-in-out infinite; }
+    </style>
+
+    <linearGradient id="waveGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="1200" height="400" rx="0"/>
+
+  <!-- Central glow -->
+  <ellipse cx="600" cy="200" rx="400" ry="200" fill="url(#glowCenter)"/>
+
+  <!-- Animated wave layer 1 -->
+  <g class="wave-group1">
+    <path d="M0,320 C150,280 350,360 600,320 C850,280 1050,360 1200,320 L1200,400 L0,400 Z" fill="url(#waveGrad1)"/>
+    <path d="M600,320 C750,280 950,360 1200,320 C1450,280 1650,360 1800,320 L1800,400 L600,400 Z" fill="url(#waveGrad1)"/>
+  </g>
+
+  <!-- Animated wave layer 2 -->
+  <g class="wave-group2">
+    <path d="M0,340 C200,310 400,370 600,340 C800,310 1000,370 1200,340 L1200,400 L0,400 Z" fill="url(#waveGrad2)"/>
+    <path d="M600,340 C800,310 1000,370 1200,340 C1400,310 1600,370 1800,340 L1800,400 L600,400 Z" fill="url(#waveGrad2)"/>
+  </g>
+
+  <!-- Floating particles -->
+  <circle class="particle p1" cx="100" cy="80" r="2" fill="#58a6ff"/>
+  <circle class="particle p2" cx="250" cy="120" r="1.5" fill="#79c0ff"/>
+  <circle class="particle p3" cx="400" cy="60" r="2.5" fill="#1f6feb"/>
+  <circle class="particle p4" cx="550" cy="100" r="1" fill="#58a6ff"/>
+  <circle class="particle p5" cx="700" cy="70" r="2" fill="#79c0ff"/>
+  <circle class="particle p6" cx="850" cy="110" r="1.5" fill="#58a6ff"/>
+  <circle class="particle p7" cx="950" cy="50" r="2" fill="#1f6feb"/>
+  <circle class="particle p8" cx="1050" cy="90" r="1" fill="#79c0ff"/>
+  <circle class="particle p9" cx="150" cy="300" r="1.5" fill="#58a6ff"/>
+  <circle class="particle p10" cx="1100" cy="280" r="2" fill="#1f6feb"/>
+
+  <!-- Sparkle dots -->
+  <circle class="sparkle-dot s1" cx="180" cy="160" r="2" fill="#ffffff"/>
+  <circle class="sparkle-dot s2" cx="320" cy="250" r="1.5" fill="#ffffff"/>
+  <circle class="sparkle-dot s3" cx="480" cy="180" r="1" fill="#ffffff"/>
+  <circle class="sparkle-dot s4" cx="720" cy="260" r="2" fill="#ffffff"/>
+  <circle class="sparkle-dot s5" cx="880" cy="170" r="1.5" fill="#ffffff"/>
+  <circle class="sparkle-dot s6" cx="1020" cy="230" r="1" fill="#ffffff"/>
+  <circle class="sparkle-dot s7" cx="60" cy="220" r="1.5" fill="#ffffff"/>
+
+  <!-- Connecting lines between floating icons -->
+  <line class="connecting-line cl1" x1="120" y1="225" x2="300" y2="195" stroke="url(#lineGrad)" stroke-width="1"/>
+  <line class="connecting-line cl2" x1="300" y1="195" x2="600" y2="280" stroke="url(#lineGrad)" stroke-width="1"/>
+  <line class="connecting-line cl3" x1="600" y1="280" x2="900" y2="195" stroke="url(#lineGrad)" stroke-width="1"/>
+  <line class="connecting-line cl4" x1="900" y1="195" x2="1080" y2="225" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <!-- Floating DevOps Icons -->
+  <!-- Docker -->
+  <g class="docker-icon glow-element" transform="translate(90, 195)">
+    <rect x="0" y="0" width="55" height="55" rx="12" fill="#0d1117" stroke="#2496ED" stroke-width="1.5" opacity="0.9"/>
+    <text x="27.5" y="37" text-anchor="middle" font-size="28">🐳</text>
+  </g>
+
+  <!-- Kubernetes -->
+  <g class="k8s-icon glow-element" transform="translate(270, 165)">
+    <rect x="0" y="0" width="55" height="55" rx="12" fill="#0d1117" stroke="#326CE5" stroke-width="1.5" opacity="0.9"/>
+    <text x="27.5" y="37" text-anchor="middle" font-size="28">☸️</text>
+  </g>
+
+  <!-- Cloud/AWS -->
+  <g class="cloud-icon glow-element" transform="translate(573, 250)">
+    <rect x="0" y="0" width="55" height="55" rx="12" fill="#0d1117" stroke="#FF9900" stroke-width="1.5" opacity="0.9"/>
+    <text x="27.5" y="37" text-anchor="middle" font-size="28">☁️</text>
+  </g>
+
+  <!-- Terraform -->
+  <g class="tf-icon glow-element" transform="translate(873, 165)">
+    <rect x="0" y="0" width="55" height="55" rx="12" fill="#0d1117" stroke="#7B42BC" stroke-width="1.5" opacity="0.9"/>
+    <text x="27.5" y="37" text-anchor="middle" font-size="28">🏗️</text>
+  </g>
+
+  <!-- Pipeline/CI -->
+  <g class="pipe-icon glow-element" transform="translate(1053, 195)">
+    <rect x="0" y="0" width="55" height="55" rx="12" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5" opacity="0.9"/>
+    <text x="27.5" y="37" text-anchor="middle" font-size="28">🔄</text>
+  </g>
+
+  <!-- Accent line -->
+  <line x1="430" y1="120" x2="770" y2="120" stroke="url(#lineGrad)" stroke-width="2"/>
+
+  <!-- Main text -->
+  <text class="tagline" x="600" y="112" text-anchor="middle">CLOUD  ·  DEVOPS  ·  INFRASTRUCTURE</text>
+  <text class="title" x="600" y="170" text-anchor="middle" filter="url(#softGlow)">VISHAL SONI</text>
+  
+  <!-- Bottom accent line -->
+  <line x1="470" y1="182" x2="730" y2="182" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+</svg>
