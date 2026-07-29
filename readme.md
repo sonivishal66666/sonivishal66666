@@ -203,7 +203,7 @@ const vishal = {
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
 
 <h2>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1500&color=58A6FF&center=true&vCenter=true&repeat=true&width=400&height=35&lines=%F0%9F%90%8D+Watch+My+Contributions+Get+Eaten!" alt="Snake Title" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3000&pause=1500&color=58A6FF&center=true&vCenter=true&repeat=true&width=400&height=35&lines=%F0%9F%90%8D+Contribution+Snake+Game" alt="Snake Title" /></a>
 </h2>
 
 <br/>
@@ -211,7 +211,7 @@ const vishal = {
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
+  <img alt="Contribution Snake Graph" src="https://raw.githubusercontent.com/vishalsoni18/vishalsoni18/output/github-snake-dark.svg" />
 </picture>
 
 </div>
