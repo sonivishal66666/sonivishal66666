@@ -16,7 +16,7 @@
 <br/>
 
 <!-- TAGLINE -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=4000&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=550&height=30&lines=%E2%98%81%EF%B8%8F+AWS+Certified+%C2%B7+%E2%98%B8%EF%B8%8F+Kubernetes+Native+%C2%B7+%F0%9F%8F%86+Top+0.1%25+Codeforces" alt="Subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=4000&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=550&height=30&lines=%E2%98%81%EF%B8%8F+AWS+Certified+%C2%B7+%E2%98%B8%EF%B8%8F+Kubernetes+Native+%C2%B7+%F0%9F%8F%86+Top+0.1%25+Codeforces+Graph+Camp" alt="Subtitle" />
 
 <br/>
 
